@@ -11,19 +11,19 @@ namespace LinkedListProject
         static void Main(string[] args)
         {
             LinkedList list = new LinkedList();
-            list.AddAtStart("3");
-            list.AddAtStart("5");
-            list.AddAtStart("9");
-            list.AddAtStart("0");
-            list.AddToEnd("5");
-            list.AddToEnd("1");
-            list.AddToEnd("9");
-            list.AddToEnd("0");
+            list.AddAtStart("three");
+            list.AddAtStart("five");
+            list.AddAtStart("nine");
+            list.AddAtStart("nine");
+            list.AddToEnd("five");
+            list.AddToEnd("one");
+            list.AddToEnd("nine");
+            list.AddToEnd("zero");
 
             list.PrintAllNodes();
 
             Console.WriteLine("---------------");
-            Object o = "0";
+            Object o = "zero";
             list.RemoveAll(o);
 
             list.PrintAllNodes();
